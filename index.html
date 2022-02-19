@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div id="scrollhome"></div>
+    <header>
+        <nav>
+            <ul class="open">
+                <li><a onclick="scrollClick('home')">Home</a></li>
+                <li><a onclick="scrollClick('about-us')">About</a></li>
+                <li><a onclick="scrollClick('store')">Store</a></li>
+                <li><a onclick="scrollClick('item')">Item</a></li>
+                <li><a onclick="scrollClick('profile')">My Profile</a></li>
+            </ul>
+            <div class="navBtn">
+                <div class="burger">
+                </div>
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="assets/img/groceries1.jpg" alt="Belanja">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/fruits.jpg" alt="Buah">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/veggies.jpg" alt="Sayuran">
+                </div>
+
+                <div class="navigationAuto">
+                    <div class="autoBtn1"></div>
+                    <div class="autoBtn2"></div>
+                    <div class="autoBtn3"></div>
+                </div>
+
+                <div class="navigationManual">
+                    <label for="radio1" class="manualBtn"></label>
+                    <label for="radio2" class="manualBtn"></label>
+                    <label for="radio3" class="manualBtn"></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <content id="content">
+            <div id="scrollabout-us"></div>
+            <article class="card">
+                <div class="title">
+                    <h1>About Us</h1>
+                    <hr class="underlined-text">
+                </div>
+                <img src="assets/img/walmart.png" alt="" class="featured-image">
+                <p><b>Walmart, Inc.</b> engages in retail and wholesale business. The Company offers an assortment of merchandise and services at everyday low prices. It operates through the following business segments: Walmart U.S., Walmart International,
+                    and Sam's Club. The Walmart U.S. segment operates as a merchandiser of consumer products, operating under the Walmart, Wal-Mart, and Walmart Neighborhood Market brands, as well as walmart.com and other eCommerce brands. The Walmart
+                    International segment manages supercenters, supermarkets, hypermarkets, warehouse clubs, and cash and carry outside of the United States. The Sam's Club segment comprises membership-only warehouse clubs and samsclubs.com. The company
+                    was founded by Samuel Moore Walton and James Lawrence Walton in 1945 and is headquartered in Bentonville, AR</p>
+            </article>
+            <div id="scrollstore"></div>
+            <article class="card">
+                <div class="title">
+                    <h1>Our Stores</h1>
+                    <hr class="underlined-text">
+                </div>
+                <img src="assets/img/inside-store.jpg" alt="" class="featured-image">
+                <p><b>Walmart Supercenters,</b> branded simply as "Walmart", are hypermarkets with sizes varying from 69,000 to 260,000 square feet (6,400 to 24,200 square meters), but averaging about 178,000 square feet (16,500 square meters).These stock
+                    general merchandise and a full-service supermarket, including meat and poultry, baked goods, delicatessen, frozen foods, dairy products, garden produce, and fresh seafood. Many Walmart Supercenters also have a garden center, pet shop,
+                    pharmacy, Tire & Lube Express, optical center, one-hour photo processing lab, portrait studio, and numerous alcove shops, such as cellular phone stores, hair and nail salons, video rental stores, local bank branches (such as Woodforest
+                    National Bank branches in newer locations), and fast food outlets. Many Walmart Supercenters have featured McDonald's restaurants, but in 2007, Walmart announced it would stop opening McDonald's restaurants at most of their newer stores.
+                    Most locations that opened up after the announcement had Subway as their restaurants, and some McDonald's inside the stores were replaced with Subways. In some Canadian locations, Tim Hortons were opened. Recently, in several Supercenters,
+                    like the Tallahassee, Florida and the Palm Desert, California locations, Walmart added Burger King to their locations, and the location in Glen Burnie, Maryland, due to its past as a hypermarket called Leedmark, which operated from
+                    May 1991 to January 1994, boasts an Auntie Anne's and an Italian restaurant. Some locations also have fuel stations which sell gasoline distributed by Murphy USA (which spun off from Murphy Oil in 2013), Sunoco, Inc. ("Optima"), the
+                    Tesoro Corporation ("Mirastar"), USA Gasoline, and even now Walmart-branded gas stations. The first Supercenter opened in Washington, Missouri, in 1988. A similar concept, Hypermart USA, had opened a year earlier in Garland, Texas.
+                    All Hypermart USA stores were later closed or converted into Supercenters. As of January 31, 2022, there were 3,573 Walmart Supercenters in 49 of the 50 U.S. states, the District of Columbia, and Puerto Rico.Hawaii is the only state
+                    to not have a Supercenter location. The largest Supercenter in the world, covering 260,000 square feet (24,000 square meters) on two floors, is located in Crossgates Commons in Albany, New York. A typical supercenter sells approximately
+                    120,000 items, compared to the 35 million products sold in Walmart's online store. The "Supercenter" name has since been phased out, with these stores now simply referred to as "Walmart", since the company introduced the new Walmart
+                    logo in 2008. However, the branding is still used in Walmart's Canadian stores (spelled as "Supercentre" in Canadian English).</p>
+            </article>
+            <article class="card">
+                <div id="scrollitem"></div>
+                <div class="title">
+                    <h1>Our Items</h1>
+                    <hr class="underlined-text">
+                </div>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <input type="radio" name="radio-btn" id="radio6">
+
+                        <div class="slide first">
+                            <img src="assets/img/cloths.jpg" alt="Belanja">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/coffee.jpg" alt="Buah">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/fruits1.jpg" alt="Sayuran">
+                        </div>
+                        <div class="navigationManualSlide">
+                            <label for="radio4" class="manualBtn"></label>
+                            <label for="radio5" class="manualBtn"></label>
+                            <label for="radio6" class="manualBtn"></label>
+                        </div>
+                    </div>
+                </div>
+                <p><b>Our item such as</b>, Clothing, Shoes & Accessories Women Women's Plus Men Girls Boys Baby Shoes Jewelry & Watches Bags & Accessories Savings Books Shop all books Kobo eReaders eBooks Children's books Textbooks Teen & young adult books
+                    Magazines Biographics & memoirs Literature & fiction Comics & graphic novels Arts & entertainment Cookbooks, food, & wine Movies & TV Shows Shop all movies & TV shows 4K Ultra HD Movies Blu-ray Movies DVD Movies 4K Ultra HD TV Shows
+                    Blu-ray TV Shows DVD TV Shows Music & Vinyl Shop all music & vinyl Turntables Musical instruments Rap & hip-hop Rock Pop Country Classical Video Games Shop all video games Xbox PlayStation Nintendo Video game accessories Virtual reality
+                    Arcade Collectibles Arts, Crafts, Sewing & Party Supplies Shop All Arts Crafts & Sewing Sewing Machines & Accessories Die Cutting Fabric Arts & Crafts Furniture and Storage Craft Supplies Art Supplies Knitting & Crochet Arts & Crafts
+                    for Kids Beading & Jewelry Making Fabric & Apparel Crafting Artificial Plants and Flowers Party Supplies Gift Wrap Wedding Shop</p>
+            </article>
+        </content>
+        <aside>
+            <div id="scrollprofile"></div>
+            <article class="card">
+                <figure class="foto-profile">
+                    <img src="assets/img/foto-profile.jpg">
+                    <figcaption>I'm a Web Developer</figcaption>
+                </figure>
+                <section>
+                    <h3 class="text-biodata">Biodata</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Alviano Dwitiya Nareswara La Kahia</td>
+                        </tr>
+                        <tr>
+                            <th>Tempat, Tanggal Lahir</th>
+                            <td>19 Oktober 2001</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>Main Game</td>
+                        </tr>
+                        <tr>
+                            <th>Bahasa Daerah</th>
+                            <td>Jawa</td>
+                        </tr>
+                        <tr>
+                            <th>No Telepon</th>
+                            <td>+6289-516-280-xxx</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <script type="text/javascript" src="assets/scripts/script.js"></script>
+</body>
+<footer>
+    <article class="footer">
+        <p>We'd love to hear what you think!</p>
+        <input type="text" class="input-feedback">
+        <button class="btn-footer"><a class="text-btn" onclick="alert('Thank You For Give us Your Feedback ')">Give Feedback</a></button>
+    </article>
+</footer>
+
+</html>
